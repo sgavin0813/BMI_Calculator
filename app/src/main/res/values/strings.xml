@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BMI_Gavin</string>
+    <string name="hintHeightF">Enter height ft"</string>
+    <string name="hintHeightI">Enter height inch</string>
+    <string name="hintWeight">Enter Weight</string>
+    <string name="calculateButton">Calculate</string>
+    <string name="calculateBMI">Calculate BMI</string>
+    <string name="healthy">Healthy</string>
+    <string name="overWeight">Fat ass bitch!</string>
+    <string name="results">Result</string>
+</resources>
