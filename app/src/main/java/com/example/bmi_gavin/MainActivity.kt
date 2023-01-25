@@ -11,8 +11,15 @@ import android.view.View
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        //used to connect kotlin/java to xml file
+        // R.layout.activity_main -> reference to a file named "activity_main"
         setContentView(R.layout.activity_main)
+
+        //setContentView is where we actually start coding part
+        
         val textView:TextView = findViewById(R.id.resultText)
+        //findViewById() is a method ->  used to retrieve a view in an Activity by its unique identifier
+        //R.id is subclass of 'R' and R.id.weight is reference to a view with id weight.
         val editWeight:EditText = findViewById(R.id.weight)
         val editHeightF:EditText = findViewById(R.id.heightFeet)
         val editHeightI:EditText = findViewById(R.id.heightInch)
