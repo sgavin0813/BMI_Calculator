@@ -48,6 +48,13 @@
             android:text="@string/calculateButton"
             android:backgroundTint="#09730D"
             android:id="@+id/btnCalc"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:backgroundTint="#09730D"
+        android:id="@+id/resetBMI"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -56,5 +63,6 @@
         android:textSize="30sp"
         android:id="@+id/resultText"
         />
+
 
     </LinearLayout>
