@@ -78,10 +78,6 @@ class MyOnClickListener(private val editWeight:EditText,private val editHeightF:
         val bmi:Float = 703*(weight / (heightInchesTotal * heightInchesTotal))
 
         when {
-
-            bmi < 16 -> {
-                result.text = "Severely Underweight"
-            }
             bmi < 18.5 -> {
                 result.text = "Underweight"
             }
