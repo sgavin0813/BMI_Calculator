@@ -1,0 +1,52 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:layout_margin="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/searchBMI"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:id="@+id/searchText"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enterDate"
+        android:id="@+id/dateSearch"
+        android:autofillHints="200"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:backgroundTint="#09730D"
+        android:id="@+id/searchBMI"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valueOfBMI"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:id="@+id/bmiFound"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valueOfWeight"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:id="@+id/weightFound"
+        />
+
+
+</LinearLayout>

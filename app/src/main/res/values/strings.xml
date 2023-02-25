@@ -9,4 +9,10 @@
     <string name="overWeight">Fat ass bitch!</string>
     <string name="results">Result</string>
     <string name="reset">RESET</string>
+    <string name="history">History</string>
+    <string name="searchBMI">Search BMI</string>
+    <string name="enterDate">Enter date (MM-DD-YY)</string>
+    <string name="search">Search</string>
+    <string name="valueOfWeight">Value of weight</string>
+    <string name="valueOfBMI">Value of BMI</string>
 </resources>
